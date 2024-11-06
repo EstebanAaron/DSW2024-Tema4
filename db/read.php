@@ -7,10 +7,30 @@ require_once 'connection.php';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body{
+
+    }
+    table{
+     
+      
+      margin: auto;
+      border-collapse: 2px collapse ;
+      border:30px solid black;
+      
+    }
+    th{
+      
+      border: 20px green solid;
+      background-color:  darkblue;
+      color :yellow
+    }
+
+  </style>
 </head>
 <body>
   <p>
-    <a href="insert.php">Insertar nuevo producto</a>
+    <a href="create.html">Insertar nuevo producto</a>
   </p>
   <h1>Tabla productos</h1>
   <table>

@@ -9,6 +9,8 @@ if (!empty($_POST['name']&& !empty($_POST['price']))) {
 
   $insertSQL ="INSERT INTO products(name , price) VALUES ('$name',$price)";
   $link->query($insertSQL);
+  printf("Se ha insertado con éxito el producto $name con el precio $price");
+
 }
 
 ?>
